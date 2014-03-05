@@ -35,6 +35,7 @@ var cfg = {
 			phpCmd: "/usr/bin/php", // Or "c:\EasyPHP-5.3.8.1\PHP.exe"
 			phpArgs: {
 				"-l": null
+				"--define": "short_open_tag=Off"
 			},
 			spawnLimit: 10
 		},
